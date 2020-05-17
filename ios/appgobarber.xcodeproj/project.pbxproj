@@ -20,6 +20,8 @@
 		5ABD514465BE959F1C41E8F3 /* libPods-appgobarber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 473EA11A22781CC472B31226 /* libPods-appgobarber.a */; };
 		F77BCD08EAC0B020A14C0CF1 /* libPods-appgobarber-appgobarberTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0670101CA6DF97071229192C /* libPods-appgobarber-appgobarberTests.a */; };
 		F94E47244B7F64529B762656 /* libPods-appgobarber-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 697A1880689B2C737CB81FAA /* libPods-appgobarber-tvOS.a */; };
+		BCD17C08C5A34145BF924566 /* RobotoSlab-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B96472DA41F4D0ABCBD11F7 /* RobotoSlab-Medium.ttf */; };
+		4C4B7C5AA99E44BD9232E0A1 /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5383DB040E7242E48006E6F4 /* RobotoSlab-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		E979C0337997B9314BC83C69 /* Pods-appgobarber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appgobarber.release.xcconfig"; path = "Target Support Files/Pods-appgobarber/Pods-appgobarber.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		8B96472DA41F4D0ABCBD11F7 /* RobotoSlab-Medium.ttf */ = {isa = PBXFileReference; name = "RobotoSlab-Medium.ttf"; path = "../assets/fonts/RobotoSlab-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5383DB040E7242E48006E6F4 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; name = "RobotoSlab-Regular.ttf"; path = "../assets/fonts/RobotoSlab-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +185,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				817E09989EF95CE73D835914 /* Pods */,
+				7060676F29684E6786C30C9F /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +202,16 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		7060676F29684E6786C30C9F /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				8B96472DA41F4D0ABCBD11F7 /* RobotoSlab-Medium.ttf */,
+				5383DB040E7242E48006E6F4 /* RobotoSlab-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -340,6 +355,8 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				BCD17C08C5A34145BF924566 /* RobotoSlab-Medium.ttf in Resources */,
+				4C4B7C5AA99E44BD9232E0A1 /* RobotoSlab-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
